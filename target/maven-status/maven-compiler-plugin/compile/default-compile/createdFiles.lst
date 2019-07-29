@@ -1,0 +1,4 @@
+qa\main\Weather.class
+qa\database\Connectdbobj.class
+qa\database\Cassandradbconnect.class
+qa\extentreportlistener\ExtentReporterNG.class

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RestAPITest">
+
+	<listeners>
+		<listener class-name="qa.extentreportlistener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="RestAPITests">
+		<classes>
+			<class name="qa.test.SerializationDeserializeExample"></class>
+			<class name="qa.test.SerializationDeserializationDBdata"></class>
+			
+
+
+		</classes>
+	</test>
+</suite>

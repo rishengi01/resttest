@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RestAPITest]">
+  <listeners>
+    <listener class-name="qa.extentreportlistener.ExtentReporterNG"/>
+  </listeners>
+  <test name="RestAPITests(failed)">
+    <classes>
+      <class name="qa.test.SerializationDeserializeExample">
+        <methods>
+          <include name="weatherdeserialize"/>
+        </methods>
+      </class> <!-- qa.test.SerializationDeserializeExample -->
+    </classes>
+  </test> <!-- RestAPITests(failed) -->
+</suite> <!-- Failed suite [RestAPITest] -->

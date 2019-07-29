@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RestAPITest" duration-ms="856" started-at="2019-07-26T11:35:26Z" finished-at="2019-07-26T11:35:27Z">
+    <groups>
+    </groups>
+    <test name="RestAPITests" duration-ms="856" started-at="2019-07-26T11:35:26Z" finished-at="2019-07-26T11:35:27Z">
+      <class name="qa.test.SerializationDeserializeExample">
+        <test-method status="PASS" signature="weatherserialize()[pri:0, instance:qa.test.SerializationDeserializeExample@73846619]" name="weatherserialize" duration-ms="180" started-at="2019-07-26T17:05:26Z" finished-at="2019-07-26T17:05:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weatherserialize -->
+        <test-method status="PASS" signature="weatherdeserialize()[pri:0, instance:qa.test.SerializationDeserializeExample@73846619]" name="weatherdeserialize" duration-ms="21" started-at="2019-07-26T17:05:26Z" finished-at="2019-07-26T17:05:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weatherdeserialize -->
+      </class> <!-- qa.test.SerializationDeserializeExample -->
+      <class name="qa.test.SerializationDeserializationDBdata">
+        <test-method status="PASS" signature="Serializationbydbconnect()[pri:0, instance:qa.test.SerializationDeserializationDBdata@1e127982]" name="Serializationbydbconnect" duration-ms="636" started-at="2019-07-26T17:05:26Z" finished-at="2019-07-26T17:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Serializationbydbconnect -->
+        <test-method status="PASS" signature="DeserializeDBdata()[pri:0, instance:qa.test.SerializationDeserializationDBdata@1e127982]" name="DeserializeDBdata" duration-ms="3" started-at="2019-07-26T17:05:27Z" finished-at="2019-07-26T17:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeserializeDBdata -->
+      </class> <!-- qa.test.SerializationDeserializationDBdata -->
+    </test> <!-- RestAPITests -->
+  </suite> <!-- RestAPITest -->
+</testng-results>
