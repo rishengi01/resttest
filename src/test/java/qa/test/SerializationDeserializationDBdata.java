@@ -62,7 +62,7 @@ public class SerializationDeserializationDBdata {
 
          // JSON string to Java object
          //jsonstring we have to fetch after get request(whether we use rest assured or anything else)
-         String actualjsonInString = "{\"weatherDescription\":\"scattered clouds\",\"windDirectionDegree\":\"180 Degree\",\"city\":\"Hyderabad\",\"humidity\":\"59 Percent\",\"windSpeed\":\"1.5 Km per hour\",\"temperature\":\"31.68 Degree celsius\"}";
+         String actualjsonInString = "{\"weatherDescription\":\"scattered clouds\",\"windDirectionDegree\":\"180 Degree\",\"city\":\"Hyderabad1\",\"humidity\":\"59 Percent\",\"windSpeed\":\"1.5 Km per hour\",\"temperature\":\"31.68 Degree celsius\"}";
          Weather weather2 = mapper.readValue(actualjsonInString, Weather.class);
 
          // compact print

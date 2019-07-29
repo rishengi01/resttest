@@ -2,26 +2,26 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="RestAPITest" duration-ms="1467" started-at="2019-07-29T05:45:33Z" finished-at="2019-07-29T05:45:35Z">
+  <suite name="RestAPITest" duration-ms="735" started-at="2019-07-29T07:56:37Z" finished-at="2019-07-29T07:56:38Z">
     <groups>
     </groups>
-    <test name="RestAPITests" duration-ms="1467" started-at="2019-07-29T05:45:33Z" finished-at="2019-07-29T05:45:35Z">
+    <test name="RestAPITests" duration-ms="735" started-at="2019-07-29T07:56:37Z" finished-at="2019-07-29T07:56:38Z">
       <class name="qa.test.SerializationDeserializeExample">
-        <test-method status="PASS" signature="weatherserialize()[pri:0, instance:qa.test.SerializationDeserializeExample@100fc185]" name="weatherserialize" duration-ms="298" started-at="2019-07-29T11:15:33Z" finished-at="2019-07-29T11:15:34Z">
+        <test-method status="PASS" signature="weatherserialize()[pri:0, instance:qa.test.SerializationDeserializeExample@4de8b406]" name="weatherserialize" duration-ms="145" started-at="2019-07-29T13:26:37Z" finished-at="2019-07-29T13:26:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weatherserialize -->
-        <test-method status="PASS" signature="weatherdeserialize()[pri:0, instance:qa.test.SerializationDeserializeExample@100fc185]" name="weatherdeserialize" duration-ms="50" started-at="2019-07-29T11:15:34Z" finished-at="2019-07-29T11:15:34Z">
+        <test-method status="PASS" signature="weatherdeserialize()[pri:0, instance:qa.test.SerializationDeserializeExample@4de8b406]" name="weatherdeserialize" duration-ms="19" started-at="2019-07-29T13:26:37Z" finished-at="2019-07-29T13:26:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weatherdeserialize -->
       </class> <!-- qa.test.SerializationDeserializeExample -->
       <class name="qa.test.SerializationDeserializationDBdata">
-        <test-method status="PASS" signature="Serializationbydbconnect()[pri:0, instance:qa.test.SerializationDeserializationDBdata@402f32ff]" name="Serializationbydbconnect" duration-ms="1102" started-at="2019-07-29T11:15:34Z" finished-at="2019-07-29T11:15:35Z">
+        <test-method status="PASS" signature="Serializationbydbconnect()[pri:0, instance:qa.test.SerializationDeserializationDBdata@5d5eef3d]" name="Serializationbydbconnect" duration-ms="562" started-at="2019-07-29T13:26:37Z" finished-at="2019-07-29T13:26:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Serializationbydbconnect -->
-        <test-method status="PASS" signature="DeserializeDBdata()[pri:0, instance:qa.test.SerializationDeserializationDBdata@402f32ff]" name="DeserializeDBdata" duration-ms="2" started-at="2019-07-29T11:15:35Z" finished-at="2019-07-29T11:15:35Z">
+        <test-method status="PASS" signature="DeserializeDBdata()[pri:0, instance:qa.test.SerializationDeserializationDBdata@5d5eef3d]" name="DeserializeDBdata" duration-ms="3" started-at="2019-07-29T13:26:38Z" finished-at="2019-07-29T13:26:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeserializeDBdata -->
